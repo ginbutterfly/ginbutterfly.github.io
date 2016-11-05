@@ -36,16 +36,51 @@ nav li {
 section {
 	background-attachment: fixed;
 	background-size: cover;
-	height: 500px;
+	height: 650px;
+	padding: 0;
 	margin: 0;
+	border:1px solid transparent
+
 }
 
+
 #home {
-	background-color: #cccccc;
+	background-image: url("images/city-road-street-buildings.jpg");
+	margin-top: 58px;
+}
+
+#home h1 {
+	color: white;
+	text-align: center;
+}
+
+#home h3 {
+	color: white;
+	text-align: center;
 }
 
 #about {
 	background-image: url("images/emma_fatboy.jpg");
+	background-repeat: no-repeat;
+	
+}
+
+#about h1 {
+	color: white;
+	text-align: center;
+}
+
+#about p {
+	color: white;
+	text-align: center;
+}
+
+#resume {
+	background-color: pink;
+}
+
+#projects {
+	background-color: lightblue;
 }
 
 
