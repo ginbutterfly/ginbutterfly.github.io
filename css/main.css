@@ -1,0 +1,76 @@
+body {
+	margin: 0;
+}
+
+nav {
+	text-align: center;
+	background-color: pink;
+
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+
+nav ul {
+	margin: 0;
+	padding: 20px;
+}
+
+nav li {
+	display: inline-block;
+	padding: 0 30px;
+}
+
+
+.menu-icon {
+	display: none;
+
+	position: fixed;
+	top: 0;
+	right: 0;
+
+	font-size: 32px;
+}
+
+section {
+	background-attachment: fixed;
+	background-size: cover;
+	height: 500px;
+	margin: 0;
+}
+
+#home {
+	background-color: #cccccc;
+}
+
+#about {
+	background-image: url("images/emma_fatboy.jpg");
+}
+
+
+
+@media (max-width: 768px) {
+	/*mobile styles go here*/
+
+	nav {
+		display: none;
+	}
+
+	nav ul {
+		padding: 0;
+	}
+	
+	nav li {
+		display: block;
+		padding: 10px 0;
+	}
+
+	.menu-icon {
+		display: block;
+	}
+
+	section {
+		padding-top: 144px;
+	}
+}
