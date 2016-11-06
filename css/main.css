@@ -59,8 +59,6 @@ nav li {
 }
 
 section {
-	max-height: 650px;
-	padding-top: 20px;
 	background-attachment: fixed;
 	background-size: cover;
 	height: 650px;
@@ -127,9 +125,11 @@ section {
 }*/
 
 #my_dog {
-	background-color: #c8c6d7;
+	height: auto;
+	background: #c8c6d7;
 /*	background-image: url("images/emma_fatboy.jpg");*/
-	background-repeat: no-repeat;
+	/*background-repeat: no-repeat;*/
+	height: auto;
 	
 }
 
@@ -139,12 +139,9 @@ section {
 /*	text-shadow: 2px 2px #ff0000;*/
 }
 
-#my_dog p {
-	color: #C8C6D7;
-	text-align: center;
-	text-shadow: 2px 2px #ff0000;
-}
+#my_dog img {
 
+}
 
 #projects {
 	background-color: lightblue;
