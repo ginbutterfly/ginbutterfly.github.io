@@ -68,12 +68,31 @@ section {
 #home {
 	margin-top: 58px;
 	background-color: #4f1271;
+	background-image: url("images/computercoffee.jpg");
 }
+
+#home h1 {
+	color: #C8C6D7;
+	text-align: center;
+	text-shadow: 2px 2px #ff0000;
+}
+
+#home h3 {
+	color: #C8C6D7;
+	text-align: center;
+	text-shadow: 2px 2px #ff0000;
+}
+
+#textbox {
+	margin-top: -250px;
+  	z-index: 2;
+
+}
+
 
 
 #about {
 	background-image: url("images/city-road-street-buildings.jpg");
-
 }
 
 #about h1 {
