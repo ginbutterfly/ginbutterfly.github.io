@@ -7,11 +7,12 @@ nav {
 	text-align: center;
 	background-color: #BFACC8;
 	color: #4F1271;
-	min-width: 58px;
+	min-height: 58px;
 	position: fixed;
 	top: 0;
 	left: 0;
 	width: 100%;
+	z-index: 1;
 }
 
 nav a:link {
@@ -24,9 +25,11 @@ nav a:visited {
     text-decoration: none;
 }
 
-/*nav a:active {
-    color: #783f8e;
-}*/
+nav a:active {
+    color: #c8c6d7;
+    font-weight: bold;
+
+}
 
 nav a:hover {
     color: #783f8e;
@@ -56,6 +59,8 @@ nav li {
 }
 
 section {
+	max-height: 650px;
+	padding-top: 20px;
 	background-attachment: fixed;
 	background-size: cover;
 	height: 650px;
@@ -77,18 +82,11 @@ section {
 	text-shadow: 2px 2px #ff0000;
 }
 
-#home h3 {
+/*#home h3 {
 	color: #C8C6D7;
 	text-align: center;
 	text-shadow: 2px 2px #ff0000;
-}
-
-#textbox {
-	margin-top: -250px;
-  	z-index: 2;
-
-}
-
+}*/
 
 
 #about {
@@ -102,21 +100,43 @@ section {
 }
 
 #about h3 {
-	color: #C8C6D7;
+	color: ##783f8e;
+	background-color: #bfacc8;
+	opacity: 0.5;
 	text-align: center;
-	text-shadow: 2px 2px #ff0000;
+
+
 }
 
+/*#about-div {
+	position: absolute;
+	margin-top: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	top: 0;
+  	right: 0;
+  	bottom: 0;
+  	left: 0;
+  	width: 400px;
+  	height: 200px;
+  	background-color: #bfacc8;
+  	border-radius: 3px;
+  	opacity: 0.5;
+  	padding-top: 2em;
+  	
+}*/
+
 #my_dog {
-	background-image: url("images/emma_fatboy.jpg");
+	background-color: #c8c6d7;
+/*	background-image: url("images/emma_fatboy.jpg");*/
 	background-repeat: no-repeat;
 	
 }
 
 #my_dog h1 {
-	color: #C8C6D7;
+	color: #783f8e;
 	text-align: center;
-	text-shadow: 2px 2px #ff0000;
+/*	text-shadow: 2px 2px #ff0000;*/
 }
 
 #my_dog p {
