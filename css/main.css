@@ -1,15 +1,37 @@
 body {
 	margin: 0;
+	font-family: 'Oxygen', sans-serif;
 }
 
 nav {
 	text-align: center;
-	background-color: pink;
-
+	background-color: #BFACC8;
+	color: #4F1271;
+	min-width: 58px;
 	position: fixed;
 	top: 0;
 	left: 0;
 	width: 100%;
+}
+
+nav a:link {
+    color: #4F1271;
+    text-decoration: none;
+}
+
+nav a:visited {
+    color: #4F1271;
+    text-decoration: none;
+}
+
+/*nav a:active {
+    color: #783f8e;
+}*/
+
+nav a:hover {
+    color: #783f8e;
+    text-decoration: underline;
+    font-weight: bold;
 }
 
 nav ul {
@@ -43,41 +65,47 @@ section {
 
 }
 
-
 #home {
-	background-image: url("images/city-road-street-buildings.jpg");
 	margin-top: 58px;
+	background-color: #4f1271;
 }
 
-#home h1 {
-	color: white;
-	text-align: center;
-}
-
-#home h3 {
-	color: white;
-	text-align: center;
-}
 
 #about {
+	background-image: url("images/city-road-street-buildings.jpg");
+
+}
+
+#about h1 {
+	color: #C8C6D7;
+	text-align: center;
+	text-shadow: 2px 2px #ff0000;
+}
+
+#about h3 {
+	color: #C8C6D7;
+	text-align: center;
+	text-shadow: 2px 2px #ff0000;
+}
+
+#my_dog {
 	background-image: url("images/emma_fatboy.jpg");
 	background-repeat: no-repeat;
 	
 }
 
-#about h1 {
-	color: white;
+#my_dog h1 {
+	color: #C8C6D7;
 	text-align: center;
+	text-shadow: 2px 2px #ff0000;
 }
 
-#about p {
-	color: white;
+#my_dog p {
+	color: #C8C6D7;
 	text-align: center;
+	text-shadow: 2px 2px #ff0000;
 }
 
-#resume {
-	background-color: pink;
-}
 
 #projects {
 	background-color: lightblue;
