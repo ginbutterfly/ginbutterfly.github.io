@@ -136,17 +136,39 @@ section {
 #my_dog h1 {
 	color: #783f8e;
 	text-align: center;
-/*	text-shadow: 2px 2px #ff0000;*/
 }
 
 #my_dog img {
 
 }
 
-#projects {
-	background-color: lightblue;
+#trees {
+	height: auto;
+	background-image: url("images/amazing-tree.jpg");
+	background-repeat: no-repeat;
 }
 
+#trees h1 {
+	color: #783f8e;
+	text-align: center;
+	text-shadow: 2px 2px #c8c6d7;
+}
+
+#trees h3{
+	color: #c8c6d7;
+	text-align: center;
+}
+
+#trees img {
+   float: left;
+   /*width: 350px;*/
+   margin-bottom: 50px;
+   margin-right: 20px;
+}
+
+#trees div {
+	margin-top: 100px;
+}
 
 
 @media (max-width: 768px) {

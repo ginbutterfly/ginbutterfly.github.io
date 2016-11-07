@@ -4,6 +4,14 @@ $.stellar();
 $(document).ready(function() {
  // Put all your JavaScript here
 
+// fancybox
+ 	$(".fancybox").fancybox({
+		
+	});
+
+	
+
+
 
  	// When you click the menu icon, 
  	// hide or show the nav
@@ -30,10 +38,9 @@ $(document).ready(function() {
  	});
 
 
-
+});
 
 
 
 	
 
-});
