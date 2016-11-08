@@ -25,17 +25,18 @@ nav a:visited {
     text-decoration: none;
 }
 
-nav a:active {
-    color: #c8c6d7;
-    font-weight: bold;
-
-}
-
 nav a:hover {
     color: #783f8e;
     text-decoration: underline;
     font-weight: bold;
 }
+
+
+nav a:active {
+    color: #c8c6d7;
+    font-weight: bold;
+}
+
 
 nav ul {
 	margin: 0;
@@ -56,6 +57,7 @@ nav li {
 	right: 0;
 
 	font-size: 32px;
+	z-index: 1;
 }
 
 section {
@@ -64,12 +66,15 @@ section {
 	height: 650px;
 	padding: 0;
 	margin: 0;
-	border:1px solid transparent
+	border:1px solid transparent;
+	margin-top: -60px;
+	padding-top: 60px;
 
 }
 
 #home {
 	margin-top: 58px;
+	padding-top: 120px;
 	background-color: #4f1271;
 	background-image: url("images/computercoffee.jpg");
 }
@@ -139,6 +144,8 @@ section {
 }
 
 #my_dog img {
+/*	height: 283px;*/
+/*	width: 190px;*/
 
 }
 
